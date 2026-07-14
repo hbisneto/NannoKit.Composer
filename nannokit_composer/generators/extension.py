@@ -19,6 +19,8 @@ class ExtensionGenerator:
             /
             "Documents"
             /
+            "NannoKit"
+            /
             self.project_name
         )
 

@@ -9,6 +9,8 @@ class ModuleGenerator:
             /
             "Documents"
             /
+            "NannoKit"
+            /
             self.name
         )
         base.mkdir(
