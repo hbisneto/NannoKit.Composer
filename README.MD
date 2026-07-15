@@ -1,41 +1,41 @@
 # NannoKit Composer
 
-**Gerador oficial de projetos para extensões e módulos do SuperNanno**
+**Official Project Generator for SuperNanno Extensions and Modules**
 
-Ferramenta de linha de comando para criar a estrutura completa de extensões `NannoKit` com um único comando.
-
----
-
-## ✨ Funcionalidades
-
-- Criação rápida de extensões completas (`nannokit-{name}`)
-- Estrutura padronizada pronta para publicação no PyPI
-- Templates atualizados com melhores práticas do ecossistema SuperNanno
-- Suporte a variáveis (`{name}`) substituídas automaticamente
-- Fácil integração com Textual + SuperNanno
+A command-line tool that creates the complete structure for `NannoKit` extensions with a single command.
 
 ---
 
-## 📦 Instalação
+## ✨ Features
 
-### 1. Clone ou baixe o projeto
+- Fast creation of complete extensions (`nannokit-{name}`)
+- Standardized structure ready for PyPI publication
+- Up-to-date templates with SuperNanno ecosystem best practices
+- Built-in support for automatic variable substitution (`{name}`)
+- Easy integration with Textual + SuperNanno
+
+---
+
+## 📦 Installation
+
+### 1. Clone or download the project
 
 ```bash
 cd ~/Desktop/Bisneto/Python
-git clone https://github.com/hbisneto/NannoKitComposer.git   # se estiver no GitHub
+git clone https://github.com/hbisneto/NannoKitComposer.git    # if hosted on GitHub
 cd NannoKitComposer
 ```
 
-# Directory Tree
+### Directory Tree
 
-```
+```bash
 NannoKitComposer
 │
 ├── nannokit_composer
 │   ├── __init__.py
-│   ├── cli.py              # comandos terminal
-│   ├── composer.py         # lógica principal
-│   ├── templates.py        # estruturas dos projetos
+│   ├── cli.py              # CLI commands
+│   ├── composer.py         # main logic
+│   ├── templates.py        # project templates
 │   └── generators
 │       ├── __init__.py
 │       ├── extension.py
